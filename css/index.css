@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100dvh;
+    background-color: white;
+}
+/* .container{ 
+} */
+header{
+    background-color: rgba(241, 241, 241, 0.993);
+    padding: 0 6dvw;
+}
+.header1{
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+.logo1{
+    width: 10%;    
+    background-color:white;
+}
+.logo1 > img{
+    width: 100%;
+    padding: 0px;
+    /* height: 120%; */
+}
+.header1-1{
+    height: 100%;
+    /* overflow: hidden; */
+    width: 90%;
+    padding-left: 20px;
+}
+.flex1{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    border-bottom: 2px solid rgba(196, 195, 195, 0.473);
+}
+.flex1-1{
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+}
+.p1{
+    padding-right: 20px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.596);
+}
+.p2{
+    padding: 0 10px;
+    border-left: 2px solid rgba(196, 195, 195, 0.473);
+    border-right: 2px solid rgba(196, 195, 195, 0.473);
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.596);
+}
+.p3{
+    padding-left: 10px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.596);
+}
+.flex1-2{
+    display: flex;
+    align-items: center;
+}
+
+.flex1-2 p{
+    /* background-color: red; */
+    padding-right: 15px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.596);
+}
+.flex1-3{
+    display: flex;
+    border-left: 2px solid rgba(196, 195, 195, 0.473);
+    /* background-color: brown; */
+    align-items: center;
+}
+.flex1-3 ul{
+    display: flex;
+}
+.flex1-3 li{
+    list-style-type: none;
+    padding-left: 10px;
+}
+.flex1-3 a{
+    color: rgb(22, 27, 32);
+}
+.flex2{
+    /* background-color: rgb(255, 230, 0); */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+}
+.flex2 ul{
+    display: flex;
+    justify-content: space-between;
+}
+.flex2 li{
+    list-style-type: none;
+    padding-right: 20px;
+    font-weight: 500;
+}
+.flex2 a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(22, 27, 32);
+}
+.about a{
+    text-decoration: 2px underline;
+}
+
+.btn1{
+    background-color: rgba(253, 213, 36, 0.637);
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 25px;
+    font-weight: 600;
+}
+.header2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.header2 ul{
+    display: flex;
+    list-style-type: none;
+}
+.header2 a{
+    padding: 0 5px;
+    color: black;
+}
+.const{
+    font-weight: 600;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+footer{
+    background-color: rgb(11, 11, 27);
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    padding: 50px 6dvw;
+    border-bottom: 2px solid  rgba(196, 195, 195, 0.473);
+}
+.footer-grid img{
+    width: 50%;
+}
+footer h4{
+    color: white;
+    margin-top: 55px;
+    margin-bottom: 32px;
+}
+.footer-grid p{
+    color:  rgba(196, 195, 195, 0.473);
+    margin-left: 25px;
+    margin-top: -30px;
+    padding-right: 15%;
+}
+.footer-grid li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+.footer-grid a{
+    text-decoration: none;
+    color:  rgba(196, 195, 195, 0.473);
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 6dvw;
+}
+.footer-flex p{
+    color:   rgba(196, 195, 195, 0.473);
+}
+.footer-flex ul{
+    display: flex;
+}
+.footer-flex li{
+    list-style-type: none;
+    padding-right: 20px;
+}
+.footer-flex a{
+    text-decoration: none;
+    color:  white;
+}
+
+
+/* Write Your Codes From Here */
