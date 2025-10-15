@@ -135,6 +135,7 @@ header{
 }
 .header2 a{
     padding: 0 5px;
+    text-decoration: none;
     color: black;
 }
 .const{
