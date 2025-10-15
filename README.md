@@ -2,7 +2,7 @@
 # GROUP 2 PROJECT
 
 
-# Colaborators
+# Collaborators
 # 1. OFFORDILE OBUMNEME DENNIS
 # 2.
 # 3.
