@@ -202,3 +202,149 @@ footer h4{
 
 
 /* Write Your Codes From Here */
+        .container3{
+         display:flex;
+         padding:24px 80px;
+        align-items:Justify; 
+        background-color: beige;        
+        }
+        .container3 .image-left{
+            float:left;
+            height: auto;
+            width:70%;
+            padding:0;
+            margin-right: 0;            
+         }                       
+       .container3 .text-right{
+         float:right;
+         width:30%;
+         padding-left:20px;
+         font-size:18px;
+         color: #0F172A;
+       }
+       .container4{
+        padding:24px 80px;
+        text-align:center;
+        align-items: Justify;       
+       }
+       .container4 .image-right{
+        float:right;
+        height: auto;
+        width:40%;
+        padding-right:0;       
+      }
+      .container4 .text-left{
+        float:left;
+        width:60%;
+        padding-right:20px;
+        font-size:18px;
+        color: #0F172A;
+      }
+      .text-left ol{
+         text-align: left;
+        padding-left:20px;
+      }
+      .text-left ol li{
+         list-style-type: disc;
+        margin-bottom:10px;
+        margin-left: 16px;
+      }
+     .favour{
+      display:flex;
+      width:100%;
+      text-align: center;
+      align-items: justify;
+      background-color: beige;
+     }
+     .favour .text-right{
+      padding-right: 10px;
+      font-size: 18px;
+      width:45%;
+      color: #0F172A;
+     }
+     .favour .image-left{
+      width: 50%;
+      height: auto;
+      padding-right: 0;
+     }
+     .favour .text-right ul{
+      text-align: left;
+      padding-left: 20px;
+     }
+     .favour .text-right ul li{
+      list-style-type: disc;
+      margin-bottom: 5px;
+      margin-left: 10px;
+     }
+      .favour2 {
+      display: flex;
+      align-items: center; 
+      justify-content: space-between;
+      padding: 60px 80px;
+      background-color: beige;       
+      }
+      .favour2 .text-left {
+       flex: 1 1 45%;
+       font-size: 18px;
+       color: #0f172A;
+       padding-right: 20px;
+      }
+      .favour2 .text-left h3 {
+       margin-bottom: 8px;
+       font-size: 20px;
+       color: #0F172A;
+      }
+      .favour2 .text-left p {
+       margin-bottom: 16px;
+       color: #0F172A;       
+      }
+      .favour2 .image-right {
+       flex: 1 1 45%; 
+      text-align: right;
+      }
+      .favour2 .image-right img {
+       max-width: 100%;
+       border-radius: 8px;
+       height: auto;
+       object-fit: cover;
+      }
+      .consulting-service {
+      display: flex;
+      align-items: center;          
+      justify-content: space-between; 
+      background-color: white;
+      padding: 40px 80px;
+      border-radius: 12px;
+      margin-top: 40px;
+      }
+      .consulting-text {
+      flex: 1 1 60%;
+      color: #0f172A;
+      }
+     .consulting-text h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      font-weight: 700;
+      }
+     .consulting-text p {
+     font-size: 18px;
+     color: #0f172A;
+     }
+   .consulting-button {
+    flex: 1 1 30%;
+    text-align: right;
+    }
+   .consulting-button button {
+    background-color: #e0b84b;
+    color: #fff;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    }
+    .consulting-button button:hover {
+     background-color: #caa13d;
+    }
+
+
