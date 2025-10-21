@@ -7,7 +7,6 @@
 body{
     height: 100dvh;
     background-color: white;
-    font-family: "Lato", sans-serif;
 }
 /* .container{ 
 } */
@@ -204,7 +203,7 @@ footer h4{
 
 /* Write Your Codes From Here */
 
-/* Section 1 */
+
 .sec1{
     padding: 0 6dvw;
     padding-top: 5dvw;
